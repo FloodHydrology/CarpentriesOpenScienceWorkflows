@@ -75,6 +75,10 @@ dygraph_ts_fun(df)
 
   #Save graph
   m<-dygraph_ts_fun(df)
+  htmlwidgets::saveWidget(m, 'docs//plot.html')
+
+#Step 5: Push to github
   
-  htmlwidgets::saveWidget()
+#step 6: Go to github page!  [yourusername].github.io/CarpentriesOpenScienceWorkflows/plot.html
+  #https://floodhydrology.github.io/CarpentriesOpenScienceWorkflows/plot.html
 
